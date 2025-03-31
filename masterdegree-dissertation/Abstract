@@ -1,1 +1,26 @@
+Peer-to-peer (P2P) lending platforms are rapidly growing as alternative options to traditional financial
+institutions. A primary concern in P2P lending platforms is trustworthiness between borrowers and
+lenders. Credit risk assessment can help lenders (investors) evaluate the loan default risk, and the
+accurate credit risk models require advanced techniques to develop. The development of accurate
+credit risk models using machine learning algorithms has emerged due to their ability to identify
+complex patterns within extensive datasets.
+
+In this paper, we utilize data from Bondora, a leading European peer-to-peer (P2P) lending platform,
+to examine the predictive power of machine learning models: Logistic Regression (LR), Random
+Forests (RF), Artificial Neural Network (ANN), and XGBoost, in evaluating loan default risk. We
+evaluate each model's performance using accuracy, precision, recall, and ROC-AUC metrics.
+
+Additionally, this study will evaluate the performance of two feature selection methods: Recursive
+Feature Elimination with Cross-Validation using Random Forest (RFECV-RF) and Ranking
+Importance Score using XGBoost (XGBoost-based ranking).
+
+The result demonstrates that XGBoost with the RFECV-RF feature selection method model achieved
+the highest performance, based on accuracy, precision, recall, and ROC-AUC metrics, with values
+of 0.77, 0.76, 0.80, and 0.85, respectively. In addition, considering the performance of both feature
+selection methods (RFECV-RF and XGBoost-based ranking), both feature selection methods yield
+similar results when applied to the four machine learning algorithms. This study demonstrates that
+XGBoost with the RFECV-RF feature selection method is the most accurate model for predicting
+default risk on the Bondora P2P lending platform, based on our experimental results. This finding
+can significantly benefit lenders (investors) by enabling more accurate default risk assessment and
+strengthening their decision-making.
 
